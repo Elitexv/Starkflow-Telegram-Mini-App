@@ -104,7 +104,7 @@ const App = () => {
 
         <div className="flex-grow flex items-center justify-center">
           <div className="relative mt-4" onClick={handleClick}>
-            <img src={starrk} width={254} height={254} alt="notcoin" />
+            <img src={starrk} width={210} height={210} alt="notcoin" />
             {clicks.map((click) => (
               <div
                 key={click.id}
